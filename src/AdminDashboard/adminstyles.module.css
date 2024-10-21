@@ -1,0 +1,30 @@
+.breadcrumb{
+    background-color: #5ac5c8;
+}
+.breadcrumb h1{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 35px;
+}
+.formstyles{
+    box-shadow: 2px 3px 4px 5px #ddd;
+    padding: 30px;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.adminsidebar ul li{
+    margin-bottom: 20px;
+}
+.adminsidebar ul li a{
+    font-weight: 500;
+    color:  #b2456e;
+}
+.deletebtn{
+    margin-left: 500px;
+}
