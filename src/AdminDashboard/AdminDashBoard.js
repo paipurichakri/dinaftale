@@ -32,7 +32,7 @@ const AdminDashBoard = () => {
 <section className={adminStyles.breadcrumb}>
      <div className='container'>
         <div className='row'>
-          <div className='col-lg-12'>
+          <div className='col-lg-12' data={data}>
             <h1>Admin DashBoard</h1>
             </div>
            </div>

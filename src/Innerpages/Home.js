@@ -30,7 +30,6 @@ import "react-alice-carousel/lib/react-alice-carousel";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import { Carousel } from "bootstrap/dist/js/bootstrap.bundle";
 
 // import slider1 from "../Innerpages/assets/slide1.jpg"
 const Home = () => {
