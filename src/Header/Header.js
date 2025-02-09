@@ -36,10 +36,14 @@ const Header = () => {
             </NavLink>
             <NavLink className="nav-link" to="/">
             <li className="nav-item ">
+
+
               <div className='d-flex align-items-center border border-1 p-1'>
                 <FontAwesomeIcon icon={faMagnifyingGlass} className='p-2'/>
                  <input type="search" placeholder='Search Template' className={`${headerStyle.search} `} />
                </div>
+
+               
               </li>
               </NavLink>
               <NavLink className="nav-link" to="/feedback">

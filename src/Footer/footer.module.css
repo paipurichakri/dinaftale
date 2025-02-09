@@ -40,7 +40,6 @@
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 1px;
-
     display: inline;
 } 
 .ltdrop{
@@ -53,12 +52,13 @@
     background-color: #336cbc; 
 }
 .ficon{
-    background-color: rgb(51 102 153);
-    border-radius: 50%;
-    width: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   background-color: #336cbc;
+   border-radius: 50%;
+   width: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid black;
 }
 .iconscontainer{
     display: flex;

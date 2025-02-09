@@ -1,0 +1,44 @@
+.parimg{
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
+a{
+    font-size: medium;
+    font-weight: 700;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    font-size: medium;
+    font-weight: 900;
+    float: left;
+}
+.header{
+    background-color: #c37dbd;
+
+  }
+   ul li a{
+      font-weight: 700;
+      font-size: medium;
+      color: black;
+  }
+  .header h3{
+    color:black
+  }
+  .button{
+    background: linear-gradient(to left, #4cbebf ,#e468d2, #4b98f4);
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 2px;
+    font-weight: 700;
+  }
+  img{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+  }

@@ -3,18 +3,18 @@ import innerStyles from "../Innerpages/innerpages.module.css";
 const AboutUs = () => {
   return (
    <main>
-     <section className={innerStyles.breadcrumb1}>
+     <section className={innerStyles.breadcrumb}>
       <div className='container'>
         <div className='row'>
           <div className='col-lg-12'>
-            <h1>About Us</h1>
+            <h1 className='p-3'>About Us</h1>
           </div>
         </div>
       </div>
      </section>
 
 
-    <section className={innerStyles.p}>
+    <section className={innerStyles.aboutp}>
         <div className='container'>
             <div className='row'>
                 <div className='col-lg-12'>

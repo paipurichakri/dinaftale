@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import innerStyles from "./innerpages.module.css";
+import innerStyles from "./innerpage1.module.css";
 import axios from "axios";
 import { NavLink } from 'react-router-dom';
 

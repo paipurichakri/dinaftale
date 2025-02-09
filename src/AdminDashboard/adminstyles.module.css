@@ -1,5 +1,8 @@
 .breadcrumb{
-    background-color: #5ac5c8;
+    background-color:  #c37dbd;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 .breadcrumb h1{
     color: white;
@@ -27,4 +30,16 @@ ul {
 }
 .deletebtn{
     margin-left: 500px;
+}
+  
+.icon1{
+    border: none  !important;
+    outline: none !important;
+}
+.Icon2{
+    border: none;
+    outline: none;
+}
+.border{
+    border-radius: 10px;
 }

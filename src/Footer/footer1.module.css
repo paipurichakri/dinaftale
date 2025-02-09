@@ -1,0 +1,36 @@
+.footer1{
+    background-color: #c37dbd;
+    padding: 18px 0px;
+}
+.footer1 p{
+    color: white;
+    font-weight: 500;
+}
+.footer1 h5{
+    color: white;
+}
+.footer1 a{
+    color: white;
+}
+.specialchar{
+    color: black;
+}
+/* .fontawesome{
+    background-color: #0c0d0e;
+    border-radius: 50%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ } */
+.FontAwesomeIcon{
+   background-color: black;
+   width: 50px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.font{
+    display: flex;
+}

@@ -32,14 +32,14 @@ const Treatement = () => {
     </section>
 
             <section>
-              <div className={`container ${innerStyles.treatement} mb-5`}>
+              <div className={`container ${innerStyles.form} mb-5`}>
                 <div className='row'>
                  {
                    data.map((tdata)=>{
                      return(
-                       <div className='col-md-3 mb-3' key={tdata._id}>
-                          <NavLink to={`/treatementdetails/${tdata._id}`}>
-                            <h6 className='treatement'>{tdata.tname}</h6>
+                       <div className={`${innerStyles.tname} col-md-3 mb-3`} key={tdata._id}>
+                          <NavLink to={`/treatementdetails/${tdata.tname}`}>
+                            <h6 className={`${innerStyles.form} text-center`}>{tdata.tname}</h6>
                           </NavLink>
                        </div>
                            )

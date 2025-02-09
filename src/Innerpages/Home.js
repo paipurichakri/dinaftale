@@ -1,5 +1,5 @@
 import React from "react";
-import innerStyles from "../Innerpages/innerpages.module.css";
+import innerStyles from "../Innerpages/innerpage1.module.css";
 import img from "../Innerpages/assets/img.jpg";
 import img1 from "../Innerpages/assets/withoutbackgroundimage.png";
 import img2 from "../Innerpages/assets/2ndimg.jpg";
@@ -73,6 +73,7 @@ const Home = () => {
       <section >
         <div className={`${innerStyles.carouselcontainer}`}>
         <Slider  {...settings}>
+
           <div className={`${innerStyles.sliderContainer}`}>
             <div className={`${innerStyles.slider1}`}>
               <div className={`${innerStyles.Carouselimage}`}>
@@ -95,6 +96,7 @@ const Home = () => {
               </div>
             </div>
           </div>
+          
           <div>
             <div className={`${innerStyles.slider2}`}>
             <div className={`${innerStyles.Carouselimage}`}>
@@ -137,7 +139,7 @@ const Home = () => {
                   Upload Document
                 </button>
               </div>
-              <div className={`${innerStyles.Carouselimage3}`}>
+              <div className={`${innerStyles.Carouselimage}`}>
               <img src={slider1} alt="cs-img"/>
               </div>
             </div>
